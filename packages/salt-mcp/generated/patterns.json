@@ -1,0 +1,2535 @@
+{
+  "generated_at": "2026-03-14T04:42:14.431Z",
+  "version": "0.1.0",
+  "patterns": [
+    {
+      "id": "pattern.analytical-dashboard",
+      "name": "Analytical dashboard",
+      "aliases": [
+        "/salt/patterns/dashboards/analytical-dashboard"
+      ],
+      "summary": "An analytical dashboard enables users to analyze trends, patterns and metrics effectively. You can use this to present data in a hierarchical and intuitive manner. The mock-ups displayed in this pattern are available as templates in Figma _(J.P. Morgan employees only)_.",
+      "status": "stable",
+      "when_to_use": [
+        "Use an analytical dashboard to visually represent data that provide insights and analysis of key metrics and performance indicators. Combine various data sources and present information in a concise and interactive format using charts, graphs, tables and other visual elements.",
+        "Data-intensive environments.",
+        "Performance tracking.",
+        "Risk assessment.",
+        "Investment analysis.",
+        "Client reporting."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Border layout",
+          "role": null
+        },
+        {
+          "component": "Flow layout",
+          "role": null
+        },
+        {
+          "component": "Stack layout",
+          "role": null
+        },
+        {
+          "component": "Tabs",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Templates",
+          "href": "https://www.figma.com/file/O3FYUQYXLosmEuZc0T30Qo/Analytical-Dashboard-Pattern?type=design&node-id=1270-11314&mode=design&t=mek99qYi5z5Sxi8J-0",
+          "internal": true
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern.analytical-dashboard.resource.1",
+          "title": "Templates",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://www.figma.com/file/O3FYUQYXLosmEuZc0T30Qo/Analytical-Dashboard-Pattern?type=design&node-id=1270-11314&mode=design&t=mek99qYi5z5Sxi8J-0",
+          "source_url": "https://www.figma.com/file/O3FYUQYXLosmEuZc0T30Qo/Analytical-Dashboard-Pattern?type=design&node-id=1270-11314&mode=design&t=mek99qYi5z5Sxi8J-0",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Analytical dashboard"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/analytical-dashboard"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.announcement-dialog",
+      "name": "Announcement dialog",
+      "aliases": [
+        "/salt/patterns/announcement-dialog"
+      ],
+      "summary": "An announcement dialog promotes new features and can provide users with access to onward action, such as installing version updates.",
+      "status": "stable",
+      "when_to_use": [
+        "Use an announcement dialog to focus the user's attention on new product features or the highlights of a recent release with a follow-up action, such as **Download update** or **Upgrade**. They can also be used to display a notification that doesn't require a response from the user, such as a welcome message for new users or an upcoming site-maintenance notification."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Dialog",
+          "role": null
+        },
+        {
+          "component": "Header block",
+          "role": null
+        },
+        {
+          "component": "Button bar",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-announcement-dialog",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern.announcement-dialog.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-announcement-dialog",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-announcement-dialog",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Announcement dialog"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/announcement-dialog"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.app-header",
+      "name": "App header",
+      "aliases": [
+        "/salt/patterns/app-header"
+      ],
+      "summary": "An app header is a consistently available element that sits at the top of every application interface. It contains a brand logo or mark and application-wide functionality, including navigation and utility actions.",
+      "status": "stable",
+      "when_to_use": [
+        "Use as the primary element to orient users within the UI. The app header should be globally persistent, enabling easy navigation and access to utilities."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Navigation item",
+          "role": null
+        },
+        {
+          "component": "Button",
+          "role": null
+        }
+      ],
+      "related_patterns": [
+        "Navigation",
+        "Vertical navigation"
+      ],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-app-header--app-header",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-app-header-app-header-stories-tsx.appheader",
+          "title": "AppHeader",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/app-header/app-header.stories.tsx (AppHeader)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "App header"
+        },
+        {
+          "id": "pattern.app-header.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-app-header--app-header",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-app-header--app-header",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "App header"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/app-header"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.breadcrumbs",
+      "name": "Breadcrumbs",
+      "aliases": [
+        "/salt/patterns/breadcrumbs"
+      ],
+      "summary": "Breadcrumbs are a secondary navigation pattern that helps users keep track of their current location within a hierarchy. It provides a space-efficient means of allowing quick navigation to previous levels.",
+      "status": "stable",
+      "when_to_use": [
+        "Use the pattern when the user navigates through related pages, or drills down into tables or charts. It provides further navigation relative to a users workflow/selection within their current area, page or widget. They are especially useful for identifying a location in a hierarchy when the user lands on a page via deep-linking from search or an external source.",
+        "We recommend keeping the number of breadcrumb levels concise to a maximum of four, including the first level if it's displayed. Content is more easily discoverable when navigating a relatively wide and flat information hierarchy within applications. This prevents users from feeling overwhelmed.",
+        "Use breadcrumbs to complement the application's main navigation—never to replace it.",
+        "Don't show breadcrumbs when there is only one level in a hierarchy."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Button",
+          "role": null
+        },
+        {
+          "component": "Icon",
+          "role": null
+        },
+        {
+          "component": "Link",
+          "role": null
+        },
+        {
+          "component": "Text",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Breadcrumbs examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-breadcrumbs--breadcrumbs",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-breadcrumbs-breadcrumbs-stories-tsx.breadcrumbs",
+          "title": "Breadcrumbs",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/breadcrumbs/breadcrumbs.stories.tsx (Breadcrumbs)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Breadcrumbs"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-breadcrumbs-breadcrumbs-stories-tsx.expansion",
+          "title": "Expansion",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/breadcrumbs/breadcrumbs.stories.tsx (Expansion)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Breadcrumbs"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-breadcrumbs-breadcrumbs-stories-tsx.overflowmenu",
+          "title": "OverflowMenu",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/breadcrumbs/breadcrumbs.stories.tsx (OverflowMenu)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Breadcrumbs"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-breadcrumbs-breadcrumbs-stories-tsx.wrapped",
+          "title": "Wrapped",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/breadcrumbs/breadcrumbs.stories.tsx (Wrapped)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Breadcrumbs"
+        },
+        {
+          "id": "pattern.breadcrumbs.resource.1",
+          "title": "Breadcrumbs examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-breadcrumbs--breadcrumbs",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-breadcrumbs--breadcrumbs",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Breadcrumbs"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/breadcrumbs"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.button-bar",
+      "name": "Button bar",
+      "aliases": [
+        "/salt/patterns/button-bar"
+      ],
+      "summary": "A button bar displays possible actions for users to take when they reach the end of a task. You can use it to provide consistent presentation of button types and orders within pages or dialogs across your applications.",
+      "status": "stable",
+      "when_to_use": [
+        "Navigating to previous or next steps",
+        "Submitting a form",
+        "Acknowledging or canceling changes"
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Button",
+          "role": null
+        },
+        {
+          "component": "Split layout",
+          "role": null
+        },
+        {
+          "component": "Stack layout",
+          "role": null
+        }
+      ],
+      "related_patterns": [
+        "Forms"
+      ],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Button bar examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-button-bar--button-bar",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-button-bar-button-bar-stories-tsx.buttonbar",
+          "title": "ButtonBar",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/button-bar/button-bar.stories.tsx (ButtonBar)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Button bar"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-button-bar-button-bar-stories-tsx.destructiveactions",
+          "title": "DestructiveActions",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/button-bar/button-bar.stories.tsx (DestructiveActions)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Button bar"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-button-bar-button-bar-stories-tsx.dialogform",
+          "title": "DialogForm",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/button-bar/button-bar.stories.tsx (DialogForm)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Button bar"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-button-bar-button-bar-stories-tsx.multistepform",
+          "title": "MultiStepForm",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/button-bar/button-bar.stories.tsx (MultiStepForm)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Button bar"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-button-bar-button-bar-stories-tsx.responsive",
+          "title": "Responsive",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/button-bar/button-bar.stories.tsx (Responsive)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Button bar"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-button-bar-button-bar-stories-tsx.responsivereverse",
+          "title": "ResponsiveReverse",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/button-bar/button-bar.stories.tsx (ResponsiveReverse)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Button bar"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-button-bar-button-bar-stories-tsx.singlestepform",
+          "title": "SingleStepForm",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/button-bar/button-bar.stories.tsx (SingleStepForm)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Button bar"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-button-bar-button-bar-stories-tsx.withsecondary",
+          "title": "WithSecondary",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/button-bar/button-bar.stories.tsx (WithSecondary)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Button bar"
+        },
+        {
+          "id": "pattern.button-bar.resource.1",
+          "title": "Button bar examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-button-bar--button-bar",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-button-bar--button-bar",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Button bar"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/button-bar"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.contact-details",
+      "name": "Contact details",
+      "aliases": [
+        "/salt/patterns/contact-details"
+      ],
+      "summary": "Contact details display communication information for a person, company, distribution list or individual channel. This can include a name, a phone number or email address.",
+      "status": "stable",
+      "when_to_use": [
+        "Provide details and direct channels of communication for sales or support purposes.",
+        "Display contact information in a directory or CRM (Customer Relationship Management) system.",
+        "Allow users to populate form fields in a workflow with details from a list of contacts, e.g., client contact selection for a ticket.",
+        "Consider a data grid when you need to display many contacts with a standardized set of contact information."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Avatar",
+          "role": null
+        },
+        {
+          "component": "Button",
+          "role": null
+        },
+        {
+          "component": "Flow layout",
+          "role": null
+        },
+        {
+          "component": "Icon",
+          "role": null
+        },
+        {
+          "component": "Stack layout",
+          "role": null
+        },
+        {
+          "component": "Text",
+          "role": null
+        },
+        {
+          "component": "Tooltip",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-contact-details--contact-details",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-contact-details-contact-details-stories-tsx.cardembedded",
+          "title": "CardEmbedded",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/contact-details/contact-details.stories.tsx (CardEmbedded)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Contact details"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-contact-details-contact-details-stories-tsx.collapsibledetails",
+          "title": "CollapsibleDetails",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/contact-details/contact-details.stories.tsx (CollapsibleDetails)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Contact details"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-contact-details-contact-details-stories-tsx.contactdetails",
+          "title": "ContactDetails",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/contact-details/contact-details.stories.tsx (ContactDetails)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Contact details"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-contact-details-contact-details-stories-tsx.list",
+          "title": "List",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/contact-details/contact-details.stories.tsx (List)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Contact details"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-contact-details-contact-details-stories-tsx.quickaction",
+          "title": "QuickAction",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/contact-details/contact-details.stories.tsx (QuickAction)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Contact details"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-contact-details-contact-details-stories-tsx.withicons",
+          "title": "WithIcons",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/contact-details/contact-details.stories.tsx (WithIcons)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Contact details"
+        },
+        {
+          "id": "pattern.contact-details.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-contact-details--contact-details",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-contact-details--contact-details",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Contact details"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/contact-details"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.content-status",
+      "name": "Content status",
+      "aliases": [
+        "/salt/patterns/content-status"
+      ],
+      "summary": "A content status provides information about content in a container component of an application. It remains onscreen until a situation resolves or the user takes action, making it a great tool for communication and guidance.",
+      "status": "stable",
+      "when_to_use": [
+        "When content is loading.",
+        "To share information with users.",
+        "To let users know there’s an error.",
+        "When the user has successfully submitted content."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Button",
+          "role": null
+        },
+        {
+          "component": "Progress",
+          "role": null
+        },
+        {
+          "component": "Spinner",
+          "role": null
+        },
+        {
+          "component": "Stack layout",
+          "role": null
+        },
+        {
+          "component": "Status indicator",
+          "role": null
+        },
+        {
+          "component": "Text",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-content-status--info",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-content-status-content-status-stories-tsx.error",
+          "title": "Error",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/content-status/content-status.stories.tsx (Error)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Content status"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-content-status-content-status-stories-tsx.info",
+          "title": "Info",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/content-status/content-status.stories.tsx (Info)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Content status"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-content-status-content-status-stories-tsx.success",
+          "title": "Success",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/content-status/content-status.stories.tsx (Success)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Content status"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-content-status-content-status-stories-tsx.warning",
+          "title": "Warning",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/content-status/content-status.stories.tsx (Warning)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Content status"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-content-status-content-status-stories-tsx.withprogress",
+          "title": "WithProgress",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/content-status/content-status.stories.tsx (WithProgress)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Content status"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-content-status-content-status-stories-tsx.withspinner",
+          "title": "WithSpinner",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/content-status/content-status.stories.tsx (WithSpinner)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Content status"
+        },
+        {
+          "id": "pattern.content-status.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-content-status--info",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-content-status--info",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Content status"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/content-status"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.file-upload",
+      "name": "File upload",
+      "aliases": [
+        "/salt/patterns/file-upload"
+      ],
+      "summary": "A file upload allows users to transfer one or multiple files from an external source to the web application. This pattern is commonly embedded in forms or as a standalone element.",
+      "status": "stable",
+      "when_to_use": [
+        "Upload files by dragging and dropping, or by using a button to select a file in a new window or file browser.",
+        "Upload single or multiple files within modals or full-page experiences.",
+        "Display file upload progress, file listings, and management options.",
+        "Consider using a full-page layout or a drawer if additional actions need to be performed on the files.",
+        "When used in dialogs, ensure that submit actions are disabled until the file upload is complete.",
+        "When used in drawers, the upload status (e.g., completed) should remain visible regardless of the drawer's open or close actions."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "File Drop Zone",
+          "role": null
+        },
+        {
+          "component": "Static List",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-file-upload--file-upload-example",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-file-upload-file-upload-stories-tsx.fileuploadexample",
+          "title": "FileUploadExample",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/file-upload/file-upload.stories.tsx (FileUploadExample)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "File upload"
+        },
+        {
+          "id": "pattern.file-upload.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-file-upload--file-upload-example",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-file-upload--file-upload-example",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "File upload"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/file-upload"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.forms",
+      "name": "Forms",
+      "aliases": [
+        "/salt/patterns/forms"
+      ],
+      "summary": "A form allows you to capture data, gather opinions and receive information in a consistent format. This pattern provides guidelines for creating forms that are flexible to business domain, user experience and channel.",
+      "status": "stable",
+      "when_to_use": [
+        "Use a form to enable users to input and submit data. Forms can be simple and user-oriented, such as contact forms, surveys, and sign-up pages. They can also be complex and product-oriented, such as app preferences, settings, and multi-step forms split across different screens."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Button",
+          "role": null
+        },
+        {
+          "component": "Checkbox",
+          "role": null
+        },
+        {
+          "component": "Combo box",
+          "role": null
+        },
+        {
+          "component": "Dropdown",
+          "role": null
+        },
+        {
+          "component": "Form field",
+          "role": null
+        },
+        {
+          "component": "Radio button",
+          "role": null
+        }
+      ],
+      "related_patterns": [
+        "Button bar"
+      ],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Form Builder plugin (Beta)",
+          "href": "https://www.figma.com/community/plugin/1243516701438091943",
+          "internal": true
+        },
+        {
+          "label": "Form examples",
+          "href": "https://www.figma.com/file/6QFnnVZo4a7lBY1s16rZcN/Untitled?type=design&node-id=1%3A4775&mode=design",
+          "internal": true
+        },
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-forms--standard-layout",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-forms-forms-stories-tsx.compact",
+          "title": "Compact",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/forms/forms.stories.tsx (Compact)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Forms"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-forms-forms-stories-tsx.secondarybackground",
+          "title": "SecondaryBackground",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/forms/forms.stories.tsx (SecondaryBackground)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Forms"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-forms-forms-stories-tsx.secondaryfield",
+          "title": "SecondaryField",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/forms/forms.stories.tsx (SecondaryField)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Forms"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-forms-forms-stories-tsx.sections",
+          "title": "Sections",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/forms/forms.stories.tsx (Sections)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Forms"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-forms-forms-stories-tsx.standardlayout",
+          "title": "StandardLayout",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/forms/forms.stories.tsx (StandardLayout)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Forms"
+        },
+        {
+          "id": "pattern.forms.resource.1",
+          "title": "Form Builder plugin (Beta)",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://www.figma.com/community/plugin/1243516701438091943",
+          "source_url": "https://www.figma.com/community/plugin/1243516701438091943",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Forms"
+        },
+        {
+          "id": "pattern.forms.resource.2",
+          "title": "Form examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://www.figma.com/file/6QFnnVZo4a7lBY1s16rZcN/Untitled?type=design&node-id=1%3A4775&mode=design",
+          "source_url": "https://www.figma.com/file/6QFnnVZo4a7lBY1s16rZcN/Untitled?type=design&node-id=1%3A4775&mode=design",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Forms"
+        },
+        {
+          "id": "pattern.forms.resource.3",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-forms--standard-layout",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-forms--standard-layout",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Forms"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/forms"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.header-block",
+      "name": "Header block",
+      "aliases": [
+        "/salt/patterns/header-block"
+      ],
+      "summary": "Header block is a standardized header for container components and application regions, used to display various text elements depending on scenarios. Headings can also display accent and status to highlight messaging.",
+      "status": "stable",
+      "when_to_use": [
+        "Display a combination of headings, pre-headers and descriptions within container components such as Dialog, Drawer and Overlay. This can help provide clear context and purpose of a component or interaction within a UI.",
+        "Maintain a visually consistent layout and presentation for headers, and establish visual hierarchy of headings with supplementary text across different components and content layouts.",
+        "Display headings with status icons to communicate different statuses, depending on the context of the component the header block sits within.",
+        "**Note:** some Salt components, such as Dialog and Overlay, have header block embedded in by default, across both code and figma."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Dialog",
+          "role": null
+        },
+        {
+          "component": "Drawer",
+          "role": null
+        },
+        {
+          "component": "Overlay",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [],
+      "examples": [],
+      "related_docs": {
+        "overview": "/salt/patterns/header-block"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.indication",
+      "name": "Indication",
+      "aliases": [
+        "/salt/patterns/indication"
+      ],
+      "summary": "The indication pattern provides a starting point for designers to apply common indication scenarios, with consideration for color, iconography and recommended labeling guidelines.",
+      "status": "stable",
+      "when_to_use": [],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Icon",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-indication",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-indication-indication-stories-tsx.progression",
+          "title": "Progression",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/indication/indication.stories.tsx (Progression)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Indication"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-indication-indication-stories-tsx.sentiment",
+          "title": "Sentiment",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/indication/indication.stories.tsx (Sentiment)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Indication"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-indication-indication-stories-tsx.status",
+          "title": "Status",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/indication/indication.stories.tsx (Status)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Indication"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-indication-indication-stories-tsx.urgency",
+          "title": "Urgency",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/indication/indication.stories.tsx (Urgency)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Indication"
+        },
+        {
+          "id": "pattern.indication.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-indication",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-indication",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Indication"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/indication"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.international-address-form",
+      "name": "International address form",
+      "aliases": [
+        "/salt/patterns/international-address-form",
+        "/salt/patterns/international-address-input"
+      ],
+      "summary": "An international address form gives users a set of form fields to input address information for specific countries. The form displays relevant fields for a user-selected location. The pattern aims to accommodate users worldwide, but your team may be able to take further steps that fall outside its scope. For example, check with your tech partners if it's possible to detect user location and automatically adjust the form. Future versions of this pattern will cover the use of APIs, autocompletion and enhanced support for more locations.",
+      "status": "stable",
+      "when_to_use": [
+        "Use it when your user needs to enter an address for a specific country. This could be for shipping, contact, legal or compliance purposes, such as client onboarding flow or client detail collection processes."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Input",
+          "role": null
+        },
+        {
+          "component": "Dropdown",
+          "role": null
+        },
+        {
+          "component": "Stack layout",
+          "role": null
+        }
+      ],
+      "related_patterns": [
+        "Forms"
+      ],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "International address form templates",
+          "href": "https://www.figma.com/file/Evs4JfcZTmMxyJxRh3UVBT/(WIP)-International-Address-Input?type=design&node-id=982-87858&mode=design",
+          "internal": true
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern.international-address-form.resource.1",
+          "title": "International address form templates",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://www.figma.com/file/Evs4JfcZTmMxyJxRh3UVBT/(WIP)-International-Address-Input?type=design&node-id=982-87858&mode=design",
+          "source_url": "https://www.figma.com/file/Evs4JfcZTmMxyJxRh3UVBT/(WIP)-International-Address-Input?type=design&node-id=982-87858&mode=design",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "International address form"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/international-address-form"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.international-phone-number",
+      "name": "International phone number",
+      "aliases": [
+        "/salt/patterns/international-phone-number-input"
+      ],
+      "summary": "An international phone number input gives users a set of form fields to input phone number information for specific countries. The pattern is a form that displays a relevant phone number field for a user-selected location. You can use it to provide consistent design when implementing International Phone Number Input interactions across your applications. We provide design guidance on how you can use Salt form control components to achieve the pattern. Your team can take further steps that fall outside its scope. For example, check with your tech partners if it’s possible to autodetect user location using data that can support auto-generating number placeholders. You can also check if it's possible to save the entered number when the user changes the country.",
+      "status": "stable",
+      "when_to_use": [
+        "Use the pattern when your user needs to enter a phone number for a specific country. This could be for contact or access request purposes, such as client detail collection processes or two-step verification/multi-factor authentication."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Dropdown",
+          "role": null
+        },
+        {
+          "component": "Input",
+          "role": null
+        },
+        {
+          "component": "Stack layout",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [
+        "**Country selector**: allows the user to select the correct country code for their phone number.",
+        "**Phone number**: displays the entered phone number.",
+        "When the user selects the country, the text input adornment in the phone number input displays the country code."
+      ],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-international-phone-number--column",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-international-phone-number-international-phone-number-stories-tsx.column",
+          "title": "Column",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/international-phone-number/international-phone-number.stories.tsx (Column)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "International phone number"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-international-phone-number-international-phone-number-stories-tsx.row",
+          "title": "Row",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/international-phone-number/international-phone-number.stories.tsx (Row)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "International phone number"
+        },
+        {
+          "id": "pattern.international-phone-number.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-international-phone-number--column",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-international-phone-number--column",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "International phone number"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/international-phone-number-input"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.keyboard-shortcuts",
+      "name": "Keyboard shortcuts",
+      "aliases": [
+        "/salt/patterns/keyboard-shortcuts"
+      ],
+      "summary": "Keyboard shortcuts allow users to execute actions, that are usually performed with a mouse or trackpad, using a keyboard. They increase the efficiency and productivity of users who primarily rely on their keyboard when interacting with applications.",
+      "status": "stable",
+      "when_to_use": [
+        "Display a comprehensive and searchable list of keyboard shortcuts available in the application.",
+        "Help users quickly reference, discover, and learn key combinations, improving efficiency, accessibility, and overall user experience.",
+        "Provide keyboard shortcuts as an alternative to mouse or trackpad interactions, supporting users who prefer or require keyboard input."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Input",
+          "role": null
+        },
+        {
+          "component": "Kbd",
+          "role": null
+        },
+        {
+          "component": "Switch",
+          "role": null
+        },
+        {
+          "component": "Table",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": [
+          "Providing keyboard functionality is essential for accessibility.",
+          "Users with visual or mobility impairments may rely entirely on the keyboard, and many power users prefer keyboard shortcuts for efficiency. By implementing the keyboard shortcuts pattern, you enhance the user experience for everyone.",
+          "It’s important to note that adding keyboard shortcuts alone does not guarantee full keyboard accessibility. All interactive elements in your application should remain accessible through standard keyboard navigation, such as using Tab, Shift+Tab, Enter, and Space keys to move focus and activate controls."
+        ]
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-keyboard-shortcuts--with-dialog",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-keyboard-shortcuts-keyboard-shortcuts-stories-tsx.default",
+          "title": "Default",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/keyboard-shortcuts/keyboard-shortcuts.stories.tsx (Default)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Keyboard shortcuts"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-keyboard-shortcuts-keyboard-shortcuts-stories-tsx.withdialog",
+          "title": "WithDialog",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/keyboard-shortcuts/keyboard-shortcuts.stories.tsx (WithDialog)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Keyboard shortcuts"
+        },
+        {
+          "id": "pattern.keyboard-shortcuts.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-keyboard-shortcuts--with-dialog",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-keyboard-shortcuts--with-dialog",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Keyboard shortcuts"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/keyboard-shortcuts"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.list-builder",
+      "name": "List builder",
+      "aliases": [
+        "/salt/patterns/list-builder"
+      ],
+      "summary": "A list builder allows users to create a bespoke list of items from an original list, also known as a pick list, adding or removing items as required. Users can filter the items by using the filter input field.",
+      "status": "stable",
+      "when_to_use": [
+        "Use this pattern when users need to customize a list from a selection of options.",
+        "List builders are useful when you want to distinguish selected items from a larger list of available items. This is particularly useful when the initial list is so large that it's difficult to see which items the user has selected. With the two lists side-by-side, users can easily view or compare selected and available options.",
+        "Choosing visible columns or chart series from a dataset.",
+        "Customizing a client, account or research list in a CRM (customer relationship management system).",
+        "Creating a distribution list.",
+        "Creating a list of accounts for use in transactions.",
+        "Apply a consistent logic to the order of displayed items. Display pick list items chronologically or in alphabetical order, provided there are no pre-defined requirements.",
+        "Only use a list builder when there are at least five items to choose from. If you have fewer items, use a single re-orderable list."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "List",
+          "role": null
+        },
+        {
+          "component": "Input",
+          "role": null
+        },
+        {
+          "component": "Button",
+          "role": null
+        },
+        {
+          "component": "Text",
+          "role": null
+        },
+        {
+          "component": "Stack layout",
+          "role": null
+        }
+      ],
+      "related_patterns": [
+        "List filtering"
+      ],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "List builder examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-list-builder--single-select",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-list-builder-list-builder-stories-tsx.multiselect",
+          "title": "Multiselect",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/list-builder/list-builder.stories.tsx (Multiselect)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "List builder"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-list-builder-list-builder-stories-tsx.singleselect",
+          "title": "SingleSelect",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/list-builder/list-builder.stories.tsx (SingleSelect)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "List builder"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-list-builder-list-builder-stories-tsx.vertical",
+          "title": "Vertical",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/list-builder/list-builder.stories.tsx (Vertical)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "List builder"
+        },
+        {
+          "id": "pattern.list-builder.resource.1",
+          "title": "List builder examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-list-builder--single-select",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-list-builder--single-select",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "List builder"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/list-builder"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.list-filtering",
+      "name": "List filtering",
+      "aliases": [
+        "/salt/patterns/list-filtering"
+      ],
+      "summary": "When searching through a list, a filter enables users to specify criteria and only show relevant options. This pattern introduces the filter behavior of Salt components where a list is used.",
+      "status": "stable",
+      "when_to_use": [
+        "Use filtering when you have a lengthy list that users have to scroll to view all available options. The pattern typically comprises input and list based components to use a string to filter items for quick selection.",
+        "ComboBox",
+        "List builder",
+        "Pivot table",
+        "Tree builder"
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Input",
+          "role": null
+        },
+        {
+          "component": "List",
+          "role": null
+        },
+        {
+          "component": "Spinner",
+          "role": null
+        }
+      ],
+      "related_patterns": [
+        "List builder"
+      ],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [],
+      "examples": [],
+      "related_docs": {
+        "overview": "/salt/patterns/list-filtering"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.menu-button",
+      "name": "Menu button",
+      "aliases": [
+        "/salt/patterns/menu-button"
+      ],
+      "summary": "A menu button expands to reveal numerous contextual options when there's limited space to display them. The items within the menu are often less frequently used and don't require constant display within the interface.",
+      "status": "stable",
+      "when_to_use": [
+        "Use a menu button when multiple related actions need to be viewed in context but are not necessarily deemed high enough priority to be displayed on screen. When activated, the menu button reveals a list of actions a user can take. The options are displayed across a single level or multiple hierarchical levels, in a cascading menu. Clicking one option closes the menu and performs the action.",
+        "Menu buttons are ideal for where space is limited, or if certain actions are not a priority in impacting the page content. They can be positioned alongside headings, within filter bars, or within alternative layouts composed of various elements."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Button",
+          "role": null
+        },
+        {
+          "component": "Menu",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-menu-button--menu-button",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-menu-button-menu-button-stories-tsx.heading",
+          "title": "Heading",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/menu-button/menu-button.stories.tsx (Heading)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Menu button"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-menu-button-menu-button-stories-tsx.icononly",
+          "title": "IconOnly",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/menu-button/menu-button.stories.tsx (IconOnly)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Menu button"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-menu-button-menu-button-stories-tsx.menubutton",
+          "title": "MenuButton",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/menu-button/menu-button.stories.tsx (MenuButton)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Menu button"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-menu-button-menu-button-stories-tsx.overflowmenu",
+          "title": "OverflowMenu",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/menu-button/menu-button.stories.tsx (OverflowMenu)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Menu button"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-menu-button-menu-button-stories-tsx.placement",
+          "title": "Placement",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/menu-button/menu-button.stories.tsx (Placement)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Menu button"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-menu-button-menu-button-stories-tsx.withicons",
+          "title": "WithIcons",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/menu-button/menu-button.stories.tsx (WithIcons)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Menu button"
+        },
+        {
+          "id": "pattern.menu-button.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-menu-button--menu-button",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-menu-button--menu-button",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Menu button"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/menu-button"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.metric",
+      "name": "Metric",
+      "aliases": [
+        "/salt/patterns/metric"
+      ],
+      "summary": "A metric displays an important number value prominently. You can add indicators or labels to help provide context to the presented value.",
+      "status": "stable",
+      "when_to_use": [
+        "Use the pattern to give more prominence to key measurements. Metrics often serve as building blocks in dashboards. They effectively direct users to key information that they may otherwise overlook, particularly when multiple numerical values are visible.",
+        "You can add multiple metrics to your UI if needed. Visual differences, like size and positioning, can help users understand which metrics are most important.",
+        "Place metrics higher in your layout when you want to emphasize their importance.",
+        "Never leave the user guessing how to interpret your metric. Make sure you provide enough context, and use subtitles and indicators to minimize ambiguity.",
+        "Keep titles and values as short and concise as possible. Round or truncate values to significant figures, and use common abbreviations instead of spelling out words.",
+        "Avoid displaying more than five metrics in a single dashboard view. This can clutter the user's screen and overwhelm them with too much information."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Icon",
+          "role": null
+        },
+        {
+          "component": "Link",
+          "role": null
+        },
+        {
+          "component": "Stack layout",
+          "role": null
+        },
+        {
+          "component": "Text",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-metric--metric",
+          "internal": false
+        },
+        {
+          "label": "Metric examples",
+          "href": "https://www.figma.com/file/TI8zR16jnisL4W7ANedtUJ/(WIP)-Metric?type=design&node-id=652-3336&mode=design&t=UpxMBoYUQ8vMxz6z-0",
+          "internal": true
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-metric-metric-stories-tsx.hierarchicalhorizontal",
+          "title": "HierarchicalHorizontal",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/metric/metric.stories.tsx (HierarchicalHorizontal)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Metric"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-metric-metric-stories-tsx.hierarchicalvertical",
+          "title": "HierarchicalVertical",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/metric/metric.stories.tsx (HierarchicalVertical)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Metric"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-metric-metric-stories-tsx.horizontalmetric",
+          "title": "HorizontalMetric",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/metric/metric.stories.tsx (HorizontalMetric)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Metric"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-metric-metric-stories-tsx.indicators",
+          "title": "Indicators",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/metric/metric.stories.tsx (Indicators)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Metric"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-metric-metric-stories-tsx.linksubtitle",
+          "title": "LinkSubtitle",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/metric/metric.stories.tsx (LinkSubtitle)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Metric"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-metric-metric-stories-tsx.metric",
+          "title": "Metric",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/metric/metric.stories.tsx (Metric)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Metric"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-metric-metric-stories-tsx.subtitle",
+          "title": "Subtitle",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/metric/metric.stories.tsx (Subtitle)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Metric"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-metric-metric-stories-tsx.subvalue",
+          "title": "Subvalue",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/metric/metric.stories.tsx (Subvalue)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Metric"
+        },
+        {
+          "id": "pattern.metric.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-metric--metric",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-metric--metric",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Metric"
+        },
+        {
+          "id": "pattern.metric.resource.2",
+          "title": "Metric examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://www.figma.com/file/TI8zR16jnisL4W7ANedtUJ/(WIP)-Metric?type=design&node-id=652-3336&mode=design&t=UpxMBoYUQ8vMxz6z-0",
+          "source_url": "https://www.figma.com/file/TI8zR16jnisL4W7ANedtUJ/(WIP)-Metric?type=design&node-id=652-3336&mode=design&t=UpxMBoYUQ8vMxz6z-0",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Metric"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/metric"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.navigation",
+      "name": "Navigation",
+      "aliases": [
+        "/salt/patterns/navigation"
+      ],
+      "summary": "A navigation provides users with a structured and intuitive way to go to different pages, sections or features of your website or application. It tells users where they are at all times and ensures they can easily get to where they need to go. Use this pattern to provide consistency that helps users navigate your website or application easily and efficiently.",
+      "status": "stable",
+      "when_to_use": [
+        "Display navigation in websites or applications with two or more pages to indicate content hierarchy and help users orient themselves.",
+        "Simplify your hierarchy to help users locate the information they want in the fewest clicks, to reduce the user's cognitive load.",
+        "Label effectively with clear and concise label descriptions or visual cues, such as descriptive icons, to specify the information a navigation item or tab directs users to."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Navigation item",
+          "role": null
+        }
+      ],
+      "related_patterns": [
+        "Vertical navigation"
+      ],
+      "how_to_build": [
+        "Navigation item components are navigational landmarks often used in the top or left areas of the user’s screen. The navigation item component comes in two orientations: horizontal and vertical. Use the orientation that aligns best to your use case."
+      ],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-navigation--navigation",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-navigation-navigation-stories-tsx.navigation",
+          "title": "Navigation",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/navigation/navigation.stories.tsx (Navigation)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Navigation"
+        },
+        {
+          "id": "pattern.navigation.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-navigation--navigation",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-navigation--navigation",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Navigation"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/navigation"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.preferences-dialog",
+      "name": "Preferences dialog",
+      "aliases": [
+        "/salt/patterns/preferences-dialog"
+      ],
+      "summary": "A preferences dialog allows you to display, group and navigate application preferences within a responsive modal dialog window. This pattern introduces guidelines to make the preferences dialog consistent and usable.",
+      "status": "stable",
+      "when_to_use": [
+        "Place any preference settings in your platform or application within a single centralized preferences dialog. These settings could be global, application-wide settings or settings local to a specific window or widget (such as a grid or comments feed). If accessing from a specific window, immediately display the relevant settings when the preferences dialog opens.",
+        "We also recommend implementing consistent behavior around applying preferences, whether applying changes immediately or requiring the user to confirm any changes using the button bar actions."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Dialog",
+          "role": null
+        },
+        {
+          "component": "Navigation item",
+          "role": null
+        },
+        {
+          "component": "Parent-child layout",
+          "role": null
+        }
+      ],
+      "related_patterns": [
+        "Button bar",
+        "Navigation",
+        "Vertical navigation"
+      ],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-preferences-dialog--preferences-dialog",
+          "internal": false
+        },
+        {
+          "label": "Preferences dialog stickersheet",
+          "href": "https://www.figma.com/file/N6cSYycc4z6XkCjVvc1kIA/Preferences-Dialog-Pattern?type=design&node-id=157-40560&mode=design&t=eq3OapLjaquXm3UP-0",
+          "internal": true
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-preferences-dialog-preferences-dialog-stories-tsx.collapsedpreferencesdialog",
+          "title": "CollapsedPreferencesDialog",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/preferences-dialog/preferences-dialog.stories.tsx (CollapsedPreferencesDialog)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Preferences dialog"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-preferences-dialog-preferences-dialog-stories-tsx.preferencesdialog",
+          "title": "PreferencesDialog",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/preferences-dialog/preferences-dialog.stories.tsx (PreferencesDialog)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Preferences dialog"
+        },
+        {
+          "id": "pattern.preferences-dialog.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-preferences-dialog--preferences-dialog",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-preferences-dialog--preferences-dialog",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Preferences dialog"
+        },
+        {
+          "id": "pattern.preferences-dialog.resource.2",
+          "title": "Preferences dialog stickersheet",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://www.figma.com/file/N6cSYycc4z6XkCjVvc1kIA/Preferences-Dialog-Pattern?type=design&node-id=157-40560&mode=design&t=eq3OapLjaquXm3UP-0",
+          "source_url": "https://www.figma.com/file/N6cSYycc4z6XkCjVvc1kIA/Preferences-Dialog-Pattern?type=design&node-id=157-40560&mode=design&t=eq3OapLjaquXm3UP-0",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Preferences dialog"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/preferences-dialog"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.search",
+      "name": "Search",
+      "aliases": [
+        "/salt/patterns/search"
+      ],
+      "summary": "The Search pattern offers users an intuitive way to explore content quickly by using keywords. Search is essential to discover information in apps that support large amounts of information. This pattern supports a basic menu driven search behavior, with optional free text behavior and configurable search result items.",
+      "status": "stable",
+      "when_to_use": [
+        "Locate information in applications with large amounts of data.",
+        "Look through a catalog of items, like a product catalog or a library.",
+        "Navigate to a page or resource."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Combo box",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [],
+      "examples": [],
+      "related_docs": {
+        "overview": "/salt/patterns/search"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.selectable-card",
+      "name": "Selectable card",
+      "aliases": [
+        "/salt/patterns/selectable-card"
+      ],
+      "summary": "A selectable card allows users to make selections by clicking anywhere within the card. It’s functionally equivalent to a form control, such as ToggleButton, RadioButton or Checkbox. You can group selectable cards to support single or multiple selection.",
+      "status": "stable",
+      "when_to_use": [
+        "Are the main focus of your UI (and space permits).",
+        "Benefit from an illustration or explanation.",
+        "Users may need to select on a mobile device, offering a large target/hit area for swift interaction.",
+        "Consider a more traditional form control, such as Switch, RadioButton, Checkbox or Dropdown, when you have insufficient space or many options that won’t be visible on screen at the same time.",
+        "Use Card instead if your interactive elements are contained within the card content, such as a button or a link.",
+        "Use LinkCard instead to navigate users when clicking on the entire card."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Card",
+          "role": null
+        },
+        {
+          "component": "Checkbox",
+          "role": null
+        },
+        {
+          "component": "Radio button",
+          "role": null
+        },
+        {
+          "component": "Stack layout",
+          "role": null
+        },
+        {
+          "component": "Grid layout",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-selectable-card--single-selection",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern.selectable-card.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-selectable-card--single-selection",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-selectable-card--single-selection",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Selectable card"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/selectable-card"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.split-button",
+      "name": "Split button",
+      "aliases": [
+        "/salt/patterns/split-button"
+      ],
+      "summary": "A split button enables users to perform a main action and access relevant, supplementary actions inside a menu.",
+      "status": "stable",
+      "when_to_use": [
+        "Use the pattern for actions with multiple associated commands. Users are able to immediately perform the default action and access supplementary actions, which include more specific or less commonly-used actions.",
+        "**Default action:** Paste.",
+        "**Supplementary actions:** Keep source formatting, Match destination formatting, Paste text only."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Button",
+          "role": null
+        },
+        {
+          "component": "Menu",
+          "role": null
+        },
+        {
+          "component": "Segmented Button Group",
+          "role": null
+        },
+        {
+          "component": "Tooltip",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/packages?path=/story/patterns-split-button--primary",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-split-button-split-button-stories-tsx.cta",
+          "title": "CTA",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/split-button/split-button.stories.tsx (CTA)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Split button"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-split-button-split-button-stories-tsx.icononly",
+          "title": "IconOnly",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/split-button/split-button.stories.tsx (IconOnly)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Split button"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-split-button-split-button-stories-tsx.multipleactions",
+          "title": "MultipleActions",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/split-button/split-button.stories.tsx (MultipleActions)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Split button"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-split-button-split-button-stories-tsx.primary",
+          "title": "Primary",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/split-button/split-button.stories.tsx (Primary)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Split button"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-split-button-split-button-stories-tsx.secondary",
+          "title": "Secondary",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/split-button/split-button.stories.tsx (Secondary)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Split button"
+        },
+        {
+          "id": "pattern.split-button.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/packages?path=/story/patterns-split-button--primary",
+          "source_url": "https://storybook.saltdesignsystem.com/packages?path=/story/patterns-split-button--primary",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Split button"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/split-button"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.vertical-navigation",
+      "name": "Vertical navigation",
+      "aliases": [
+        "/salt/patterns/vertical-navigation"
+      ],
+      "summary": "Vertical navigation provides users with a structured and intuitive way to navigate different pages, sections or features of your website or application. It's often on the left of the viewport and organizes links into a single or multilevel structure.",
+      "status": "stable",
+      "when_to_use": [
+        "To display multiple top-level categories that represent the main sections of your website or application. This improves discoverability.",
+        "To accommodate for complex navigation structures and indicate content hierarchy. This enables growth and offers support for efficient scanning. A vertical navigation is easier to scale and iterate than a horizontal one, as vertical scrolling enables users to navigate trees of varying lengths.",
+        "To label effectively with clear and concise label descriptions or visual cues, such as descriptive icons, to specify the information a navigation item or tab directs users to."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Navigation item",
+          "role": null
+        }
+      ],
+      "related_patterns": [
+        "Navigation"
+      ],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-vertical-navigation",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-vertical-navigation-vertical-navigation-stories-tsx.nested",
+          "title": "Nested",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/vertical-navigation/vertical-navigation.stories.tsx (Nested)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Vertical navigation"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-vertical-navigation-vertical-navigation-stories-tsx.singlelevel",
+          "title": "SingleLevel",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/vertical-navigation/vertical-navigation.stories.tsx (SingleLevel)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Vertical navigation"
+        },
+        {
+          "id": "pattern.vertical-navigation.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-vertical-navigation",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-vertical-navigation",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Vertical navigation"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/vertical-navigation"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "pattern.wizard",
+      "name": "Wizard",
+      "aliases": [
+        "/salt/patterns/wizard"
+      ],
+      "summary": "The wizard allows a workflow-based task to be displayed in a sequence of manageable steps, for easier completion.",
+      "status": "stable",
+      "when_to_use": [
+        "Use wizards to guide users through a series of steps or tasks in a specific, linear order, often with the goal of completing a complex process (e.g., software installation, account setup/onboarding, checkout). Users must complete each step in order before moving on to the next."
+      ],
+      "when_not_to_use": [],
+      "composed_of": [
+        {
+          "component": "Button Bar",
+          "role": null
+        },
+        {
+          "component": "Dialog",
+          "role": null
+        },
+        {
+          "component": "Stepper",
+          "role": null
+        }
+      ],
+      "related_patterns": [],
+      "how_to_build": [],
+      "how_it_works": [],
+      "accessibility": {
+        "summary": []
+      },
+      "resources": [
+        {
+          "label": "Examples",
+          "href": "https://storybook.saltdesignsystem.com/?path=/story/patterns-wizard",
+          "internal": false
+        }
+      ],
+      "examples": [
+        {
+          "id": "pattern-story.packages-core-stories-patterns-wizard-wizard-stories-tsx.horizontal",
+          "title": "Horizontal",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/wizard/wizard.stories.tsx (Horizontal)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Wizard"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-wizard-wizard-stories-tsx.horizontalwithcancelconfirmation",
+          "title": "HorizontalWithCancelConfirmation",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/wizard/wizard.stories.tsx (HorizontalWithCancelConfirmation)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Wizard"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-wizard-wizard-stories-tsx.modal",
+          "title": "Modal",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/wizard/wizard.stories.tsx (Modal)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Wizard"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-wizard-wizard-stories-tsx.modalwithconfirmations",
+          "title": "ModalWithConfirmations",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/wizard/wizard.stories.tsx (ModalWithConfirmations)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Wizard"
+        },
+        {
+          "id": "pattern-story.packages-core-stories-patterns-wizard-wizard-stories-tsx.verticalwithcancelconfirmation",
+          "title": "VerticalWithCancelConfirmation",
+          "intent": [
+            "pattern example"
+          ],
+          "complexity": "intermediate",
+          "code": "// See packages/core/stories/patterns/wizard/wizard.stories.tsx (VerticalWithCancelConfirmation)",
+          "source_url": null,
+          "package": "@salt-ds/core",
+          "target_type": "pattern",
+          "target_name": "Wizard"
+        },
+        {
+          "id": "pattern.wizard.resource.1",
+          "title": "Examples",
+          "intent": [
+            "pattern resource"
+          ],
+          "complexity": "basic",
+          "code": "// Linked resource: https://storybook.saltdesignsystem.com/?path=/story/patterns-wizard",
+          "source_url": "https://storybook.saltdesignsystem.com/?path=/story/patterns-wizard",
+          "package": null,
+          "target_type": "pattern",
+          "target_name": "Wizard"
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/patterns/wizard"
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    }
+  ]
+}

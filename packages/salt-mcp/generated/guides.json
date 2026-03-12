@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-03-14T04:42:14.431Z",
+  "version": "0.1.0",
+  "guides": [
+    {
+      "id": "guide.developing-with-salt",
+      "name": "Developing with Salt",
+      "aliases": [
+        "getting started",
+        "setup",
+        "bootstrap",
+        "developing"
+      ],
+      "kind": "getting-started",
+      "summary": "Learn how to use Salt's UI components in your React web applications.",
+      "packages": [
+        "@salt-ds/core",
+        "@salt-ds/theme",
+        "@salt-ds/icons"
+      ],
+      "steps": [
+        {
+          "title": "Install core packages",
+          "statements": [
+            "@salt-ds/core contains production-ready UI components.",
+            "@salt-ds/theme contains CSS files that apply Salt's default theme.",
+            "@salt-ds/icons contains SVG-based icons."
+          ],
+          "snippets": [
+            {
+              "title": "Install Salt packages",
+              "language": "tsx",
+              "code": "npm install @salt-ds/core @salt-ds/theme @salt-ds/icons"
+            }
+          ]
+        },
+        {
+          "title": "Add required web fonts",
+          "statements": [
+            "Salt’s default theme requires the Open Sans and PT Mono web fonts.",
+            "You can load them from Google Fonts or self-host them with Fontsource."
+          ],
+          "snippets": [
+            {
+              "title": "Google Fonts",
+              "language": "html",
+              "code": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n<link\n  href=\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Mono&display=swap\"\n  rel=\"stylesheet\"\n/>"
+            },
+            {
+              "title": "Install Fontsource packages",
+              "language": "tsx",
+              "code": "npm install @fontsource/open-sans @fontsource/pt-mono"
+            },
+            {
+              "title": "Import Fontsource styles",
+              "language": "tsx",
+              "code": "import \"@fontsource/open-sans/300.css\";\nimport \"@fontsource/open-sans/300-italic.css\";\nimport \"@fontsource/open-sans/400.css\";\nimport \"@fontsource/open-sans/400-italic.css\";\nimport \"@fontsource/open-sans/500.css\";\nimport \"@fontsource/open-sans/500-italic.css\";\nimport \"@fontsource/open-sans/600.css\";\nimport \"@fontsource/open-sans/600-italic.css\";\nimport \"@fontsource/open-sans/700.css\";\nimport \"@fontsource/open-sans/700-italic.css\";\nimport \"@fontsource/open-sans/800.css\";\nimport \"@fontsource/open-sans/800-italic.css\";\nimport \"@fontsource/pt-mono\";"
+            }
+          ]
+        },
+        {
+          "title": "Bootstrap Salt in your app",
+          "statements": [
+            "Import the Salt theme CSS and wrap your application in SaltProvider.",
+            "To integrate Salt into your project, import the CSS theme and Salt Provider component—and then wrap your application in it."
+          ],
+          "snippets": [
+            {
+              "title": "Bootstrap with SaltProvider",
+              "language": "tsx",
+              "code": "import React from \"react\";\nimport ReactDOM from \"react-dom/client\";\nimport App from \"./App\";\n\n// Import <SaltProvider>\nimport { SaltProvider } from \"@salt-ds/core\";\n\n// Import theme CSS\nimport \"@salt-ds/theme/index.css\";\n\n// Wrap your application in a <SaltProvider>\nconst root = ReactDOM.createRoot(document.getElementById(\"root\"));\nroot.render(\n  <SaltProvider>\n    <App />\n  </SaltProvider>,\n);"
+            }
+          ]
+        },
+        {
+          "title": "Import components",
+          "statements": [
+            "Now that you’re ready to use our UI components, you can import them from the @salt-ds/core package and use them in your JSX code.",
+            "Head over to our available components to view their respective APIs."
+          ],
+          "snippets": [
+            {
+              "title": "Import and render a Button",
+              "language": "tsx",
+              "code": "import { Button } from \"@salt-ds/core\";\n\nfunction App() {\n  return <Button>Click me</Button>;\n}\n\nexport default App;"
+            }
+          ]
+        },
+        {
+          "title": "Adopt lab components intentionally",
+          "statements": [
+            "Our @salt-ds/lab package is where we introduce new components that are in the initial stages of development. Once they’re stable, we move them over to the core package.",
+            "Because it’s an unstable environment that may cause major breaking changes, we don’t recommend using lab components in production applications. However, early adopters are welcome to use and experiment with them.",
+            "ones](../support-and-contributions)."
+          ],
+          "snippets": []
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/getting-started/developing",
+        "related_components": [
+          "SaltProvider",
+          "Button"
+        ],
+        "related_packages": [
+          "@salt-ds/core",
+          "@salt-ds/theme",
+          "@salt-ds/icons"
+        ]
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    },
+    {
+      "id": "guide.themes",
+      "name": "Themes",
+      "aliases": [
+        "theme",
+        "theming",
+        "jpm brand",
+        "legacy",
+        "uitk"
+      ],
+      "kind": "theming",
+      "summary": "A theme is a collection of design tokens that define the overall look and feel of an interface. Themes allow you to quickly switch the visual style of components to match different brands or user preferences, ensuring consistency across your application.",
+      "packages": [
+        "@salt-ds/core",
+        "@salt-ds/theme"
+      ],
+      "steps": [
+        {
+          "title": "Choose a Salt theme",
+          "statements": [
+            "Salt offers the default JPM Brand theme for new work and a Legacy theme for UITK migration paths.",
+            "Salt recommends the JPM Brand theme for accessibility and long-term brand alignment."
+          ],
+          "snippets": []
+        },
+        {
+          "title": "Apply the JPM Brand theme",
+          "statements": [
+            "The JPM Brand theme is Salt’s long-term visual style, designed to match the JPMorgan look across CIB digital applications. Developed with Corporate Brand and CIB Marketing, it uses approved styles for consistent visuals on desktop and web. Salt recommends switching to the JPM Brand theme for better accessibility and brand alignment."
+          ],
+          "snippets": []
+        },
+        {
+          "title": "Apply the Legacy theme",
+          "statements": [
+            "For a gradual move from the UITK system, Salt’s Legacy (UITK) theme can be used with UITK components to support different migration timelines and needs. J.P. Morgan employees can find more details on migration options and system comparisons."
+          ],
+          "snippets": []
+        }
+      ],
+      "related_docs": {
+        "overview": "/salt/themes",
+        "related_components": [
+          "SaltProvider",
+          "SaltProviderNext"
+        ],
+        "related_packages": [
+          "@salt-ds/core",
+          "@salt-ds/theme"
+        ]
+      },
+      "last_verified_at": "2026-03-14T04:42:14.431Z"
+    }
+  ]
+}
